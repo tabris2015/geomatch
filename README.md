@@ -15,7 +15,25 @@ nutritiva, la necesidad de practicar varias veces ayuda a memorizar los concepto
 Se presenta un globo terráqueo y varias *piezas* correspondientes a distintos países del mundo, el objetivo del juego es
 colocar las piezas en los países adecuados, arrastrándolas hasta el lugar correcto en el planeta.
 Para interactuar con el juego se tienen 2 controles especiales: 
- -- Las piezas se seleccionan y arrastran utilizando movimientos de la mano derecha.
- -- El globo terráqueo se manipula a través de un dispositivo inclinómetro sujetado con la mano izquierda, 
+ * Las piezas se seleccionan y arrastran utilizando movimientos de la mano derecha.
+ * El globo terráqueo se manipula a través de un dispositivo inclinómetro sujetado con la mano izquierda, 
     la inclinación en los ejes *x* e *y* se corresponde con el movimiento angular del globo terráqueo en la pantalla.
+
+### Niveles
+El prototipo terminado cuenta con 3 niveles, en cada uno de los niveles se debe posicionar de manera correcta:
+
+1. **Banderas**. Posicionar las banderas en la ubicación del país correspondiente.
+ screenshot: 
+![alt text][Nivel 1]
+2. **Monumentos**. Posicionar las fotos de monumentos característicos.
+![alt text][Nivel 2]
+3. **Personas**. Trajes típicos y personajes característicos de  distintos países
+![alt text][Nivel 3]
+
+### Controles del Juego
     
+
+
+[Nivel 1]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%201.png "Nivel 1"
+[Nivel 2]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%202.png "Nivel 2"
+[Nivel 3]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%203.png "Nivel 3"
