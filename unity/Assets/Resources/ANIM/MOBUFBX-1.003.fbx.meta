@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 8b15d1cd13b7c8343b026d68f81d196d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Head
+    100002: Head_End
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftHandIndex1
+    100016: LeftHandIndex2
+    100018: LeftHandIndex3
+    100020: LeftHandIndex3_End
+    100022: LeftHandMiddle1
+    100024: LeftHandMiddle2
+    100026: LeftHandMiddle3
+    100028: LeftHandMiddle3_End
+    100030: LeftHandPinky1
+    100032: LeftHandPinky2
+    100034: LeftHandPinky3
+    100036: LeftHandPinky3_End
+    100038: LeftHandRing1
+    100040: LeftHandRing2
+    100042: LeftHandRing3
+    100044: LeftHandRing3_End
+    100046: LeftHandThumb1
+    100048: LeftHandThumb2
+    100050: LeftHandThumb3
+    100052: LeftHandThumb3_End
+    100054: LeftLeg
+    100056: LeftShoulder
+    100058: LeftToeBase
+    100060: LeftToeBase_End
+    100062: LeftUpLeg
+    100064: //RootNode
+    100066: Neck
+    100068: RightArm
+    100070: RightFoot
+    100072: RightForeArm
+    100074: RightHand
+    100076: RightHandIndex1
+    100078: RightHandIndex2
+    100080: RightHandIndex3
+    100082: RightHandIndex3_End
+    100084: RightHandMiddle1
+    100086: RightHandMiddle2
+    100088: RightHandMiddle3
+    100090: RightHandMiddle3_End
+    100092: RightHandPinky1
+    100094: RightHandPinky2
+    100096: RightHandPinky3
+    100098: RightHandPinky3_End
+    100100: RightHandRing1
+    100102: RightHandRing2
+    100104: RightHandRing3
+    100106: RightHandRing3_End
+    100108: RightHandThumb1
+    100110: RightHandThumb2
+    100112: RightHandThumb3
+    100114: RightHandThumb3_End
+    100116: RightLeg
+    100118: RightShoulder
+    100120: RightToeBase
+    100122: RightToeBase_End
+    100124: RightUpLeg
+    100126: Spine
+    100128: Spine1
+    100130: Spine2
+    400000: Head
+    400002: Head_End
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftHandIndex1
+    400016: LeftHandIndex2
+    400018: LeftHandIndex3
+    400020: LeftHandIndex3_End
+    400022: LeftHandMiddle1
+    400024: LeftHandMiddle2
+    400026: LeftHandMiddle3
+    400028: LeftHandMiddle3_End
+    400030: LeftHandPinky1
+    400032: LeftHandPinky2
+    400034: LeftHandPinky3
+    400036: LeftHandPinky3_End
+    400038: LeftHandRing1
+    400040: LeftHandRing2
+    400042: LeftHandRing3
+    400044: LeftHandRing3_End
+    400046: LeftHandThumb1
+    400048: LeftHandThumb2
+    400050: LeftHandThumb3
+    400052: LeftHandThumb3_End
+    400054: LeftLeg
+    400056: LeftShoulder
+    400058: LeftToeBase
+    400060: LeftToeBase_End
+    400062: LeftUpLeg
+    400064: //RootNode
+    400066: Neck
+    400068: RightArm
+    400070: RightFoot
+    400072: RightForeArm
+    400074: RightHand
+    400076: RightHandIndex1
+    400078: RightHandIndex2
+    400080: RightHandIndex3
+    400082: RightHandIndex3_End
+    400084: RightHandMiddle1
+    400086: RightHandMiddle2
+    400088: RightHandMiddle3
+    400090: RightHandMiddle3_End
+    400092: RightHandPinky1
+    400094: RightHandPinky2
+    400096: RightHandPinky3
+    400098: RightHandPinky3_End
+    400100: RightHandRing1
+    400102: RightHandRing2
+    400104: RightHandRing3
+    400106: RightHandRing3_End
+    400108: RightHandThumb1
+    400110: RightHandThumb2
+    400112: RightHandThumb3
+    400114: RightHandThumb3_End
+    400116: RightLeg
+    400118: RightShoulder
+    400120: RightToeBase
+    400122: RightToeBase_End
+    400124: RightUpLeg
+    400126: Spine
+    400128: Spine1
+    400130: Spine2
+    7400000: cottoneyejoe
+    7400002: bowandarrow1
+    7400004: 2handedlunge
+    7400006: 2handSworddAttack
+    7400008: 2handswordidle
+    7400010: airdrums
+    7400012: armspin
+    7400014: astaire1
+    7400016: astaire2
+    7400018: astaire3
+    7400020: Asteroidsspaceship
+    7400022: AtaireSPINS Take 1
+    7400024: AtaireSPINS Take 2
+    7400026: atmmachine
+    7400028: backaway
+    7400030: backgroundfighters
+    7400032: backgroundfighters2
+    7400034: backgroundfighters3
+    7400036: backgroundfightersidle Take 1
+    7400038: backgroundfightersidle2 Take 1
+    7400040: BackingDown
+    7400042: backuptokick
+    7400044: balancebeam Take 1
+    7400046: balancebeam Take 2
+    7400048: bandsax Take 1
+    7400050: bankrobber
+    7400052: bankrobber2
+    7400054: baseballbatter
+    7400056: baseballpitcher
+    7400058: baseballthrower
+    7400060: basketball
+    7400062: bathroomstandup
+    7400064: BatSword
+    7400066: Bboystance
+    7400068: beerchug
+    7400070: BIGLONGMOCAP Take 10
+    7400072: BigLongVid1 Take 1
+    7400074: bigwheelturn
+    7400076: blastedback
+    7400078: BlastedBackwards
+    7400080: blastfall
+    7400082: bodybuilderposing
+    7400084: bond
+    7400086: bond2
+    7400088: bowandarrow
+    7400090: bowandarrow2
+    7400092: bowandarrow3
+    7400094: bowandarrow4
+    7400096: bowandarrow5
+    7400098: bowandarrow6
+    7400100: bowling Take 1
+    7400102: bowling
+    7400104: boxer
+    7400106: boxing1
+    7400108: brandenboogie 1
+    7400110: brandenboogie 2
+    7400112: brandenboogie 3
+    7400114: brandenboogie 4
+    7400116: Broadwa Star
+    7400118: bugsoffme
+    7400120: C3PO
+    7400122: C3PO-idle
+    7400124: C3POspin
+    7400126: cabbagepatchloop
+    7400128: cardsdealer
+    7400130: cardsdealer2
+    7400132: Cartwheelslaugh Take 1
+    7400134: ChainSaw
+    7400136: Chalk
+    7400138: chopwoodaxe
+    7400140: chopwoodaxe2
+    7400142: churnbutter
+    7400144: ClangingSwords Take 1
+    7400146: Clarinet
+    7400148: Cliffhanger
+    7400150: conductorchestragestures
+    7400152: Contemplate
+    7400154: Contemplate1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
