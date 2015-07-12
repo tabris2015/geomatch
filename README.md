@@ -33,9 +33,23 @@ El prototipo terminado cuenta con 3 niveles, en cada uno de los niveles se debe 
 ### Controles del Juego
 Para el juego se diseñaron 2 interfaces especiales:
 
-#### Control de gestos con MS Kinect
-Se utiliza el sensor de profundidad [Kinect](https://www.microsoft.com/en-us/download/details.aspx?id=40278 "Kinect"), el cual es un dispositivo de visión que cuenta con una cámara digital y un sensor de profundidad, el cual permite detectar y reconocer el movimiento de personas frente al sensor, 
-    
+#### Hand Cursor con MS Kinect
+Se utiliza el sensor de profundidad [Kinect](https://www.microsoft.com/en-us/download/details.aspx?id=40278 "Kinect"), el cual es un dispositivo de visión que cuenta con una cámara digital y un sensor de profundidad, este sensor permite detectar y reconocer el movimiento de personas frente a la cámara. Este dispositivo ha revolucionado la industria del videojuego desde su salida, haciendo de la experiencia en videojuegos algo más dinámico y menos estático.
+
+// poner foto
+
+En **Geomatch!** utilizamos Kinect para detectar la de la mano derecha en relación a la pantalla, para poder interactuar directamente utilizando la mano como un puntero en la pantalla, sin necesidad de ningún dispositivo externo. El movimiento de la mano derecha, se transforma en el movimiento de un puntero en el entorno virtual de **Geomatch!** este puntero sirve para *agarrar* las fichas de la pantalla y *arrastrarlas* a la posición correspondiente en el globo terráqueo.
+
+// dibujo
+
+Debido a la carencia de tiempo para desarrollar más interactividad, el control se limita a la posición de la mano derecha. Este dispositivo cuenta con una infinidad de aplicaciones que se pueden explorar con mas tiempo.
+
+#### Detector inalámbrico de inclinación con IMU
+Otra parte del control la compone un IMU (Unidad de Medida Inercial), el cual, mediante sensores inerciales, proporciona variables de movimiento como aceleración en 3 ejes y velocidad angular en 3 ejes de rotación, el IMU utilizado es el **MPU 6050**, que cuenta con 6 grados de libertad (3 acc, 3 gyro).La interfaz de comunicación maneja el protocolo serial I2C para enviar los datos a un microcontrolador, el mismo que, a través de un módulo inalámbrico de radiofrecuencia, envía los datos recibidos por el IMU a la PC que los procesa para obtener la inclinación en los ejes *x* e *y*.
+
+El dispositivo, al ser alimentado por una batería, no necesita cables y libera al jugador a poder moverse libremente. Los componentes: IMU, RF, Micricontroladores que se utilizaron son de bajo costo, lo que hace la construcción de este mando muy accesible. En esta ocasión se tiene un prototipo completamente funcional.
+
+El análisis de los datos obtenidos del IMU es muy básico, dada la falta de tiempo, con un procesado más exhaustivo, se pueden obtener más datos inerciales, tales como orientación, y cosenos directores. 
 
 
 [Nivel 1]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%201.png "Nivel 1"
