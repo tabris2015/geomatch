@@ -31,9 +31,14 @@ El prototipo terminado cuenta con 3 niveles, en cada uno de los niveles se debe 
 ![alt text][Nivel 3]
 
 ### Controles del Juego
+Para el juego se diseñaron 2 interfaces especiales:
+
+#### Control de gestos con MS Kinect
+Se utiliza el sensor de profundidad [Kinect](https://www.microsoft.com/en-us/download/details.aspx?id=40278 "Kinect"), el cual es un dispositivo de visión que cuenta con una cámara digital y un sensor de profundidad, el cual permite detectar y reconocer el movimiento de personas frente al sensor, 
     
 
 
 [Nivel 1]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%201.png "Nivel 1"
 [Nivel 2]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%202.png "Nivel 2"
 [Nivel 3]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%203.png "Nivel 3"
+[menu]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/menu_inicial.png "Menu"
