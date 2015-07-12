@@ -60,6 +60,21 @@ El dispositivo, al ser alimentado por una batería, no necesita cables y libera 
 
 El análisis de los datos obtenidos del IMU es muy básico, dada la falta de tiempo, con un procesado más exhaustivo, se pueden obtener más datos inerciales, tales como orientación, y cosenos directores. 
 
+## Programación
+### Unity
+En Unity se utilizó un enfoque centralizado de información a través de notificaciones de eventos entre los componentes del juego, de esta manera se modularizó el desarrollo pudiendo dividirlo en 3 partes principales:
+  * **Interfaz Kinect**. Módulos necesarios para poder leer la posición de la mano de manera efectiva para poder utilizarla en el juego.
+  * **Interfaz IMU**. Módulos necesarios para leer los datos del inclinómetro inalámbrico y utilizarlo en el juego.
+  * **Lógica del juego, niveles y puntajes**. Todos los programas necesarios para procesar los datos de entrada y mostrar las salidas en pantalla correspondiente.
+  
+
+### Arduino
+Se realizó la programación de 2 nodos:
+  * **Transmisor**. Control móvil que envía los datos de aceleración.
+  * **Receptor**. Receptor RF que manda los datos al motor de Unity a través de USB.
+
+
+
 
 [Nivel 1]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%201.png "Nivel 1"
 [Nivel 2]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nivel%202.png "Nivel 2"
@@ -67,7 +82,7 @@ El análisis de los datos obtenidos del IMU es muy básico, dada la falta de tie
 [menu]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/menu_inicial.png "Menu"
 [kinect]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/menu_inicial.png "kinect"
 [diagrama kinect]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/diagrama_kinect.png "diagrama kinect"
-[mpu]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/mpu.png "mpu"
+[mpu]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/mpu.jpg "mpu"
 [arduino nano]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nano.png "arduino nano"
 [nrf4l01]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/rf.jpg "nrf4l01"
 
