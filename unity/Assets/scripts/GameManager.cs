@@ -126,6 +126,6 @@ public class GameManager : MonoBehaviour {
 	}
 	public void final()
 	{
-		Application.LoadLevel(2);
+		Application.LoadLevel(1);
 	}
 }
