@@ -118,6 +118,9 @@ void loop() {
     Serial.print(iy);
     Serial.print(" ; ");
     Serial.println(ix);
+    
+    //
+    
     //calcula velocidades
     vel1 = 2*iy - (ix);
     vel2 = 2*iy + (ix);
