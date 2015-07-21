@@ -47,7 +47,7 @@ RF24Network network(radio);          // Network uses that radio
 const uint16_t this_node = 01;        // Address of our node in Octal format
 const uint16_t other_node = 00;       // Address of the other node in Octal format
 //-----------------------------
-const unsigned long interval = 20; //ms  // How often to send 'hello world to the other unit
+const unsigned long interval = 100; //ms  // How often to send 'hello world to the other unit
 
 unsigned long last_sent;             // When did we last send?
 unsigned long packets_sent;          // How many have we sent already
@@ -113,6 +113,8 @@ void loop() {
     angleXZ = angleXZ*(57.2958);
     int iy = (int)angleYZ;
     int ix = (int)angleXZ;
+    
+    //TODO: enviar datos de angulos ypr
     Serial.print(iy);
     Serial.print(" ; ");
     Serial.println(ix);
