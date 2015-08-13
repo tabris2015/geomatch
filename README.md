@@ -1,4 +1,5 @@
 # Geomatch!
+![alt text][logo]
 ### **Los Super Amigos** -- Julio de 2015
 
 ## Descripción
@@ -7,6 +8,7 @@ colegios de manera divertida apoyándose de actividades motrices en vez de senta
 con un teclado y mouse. En este caso **Geomatch!** basa su interfaz en dispositivos capaces de detectar y registrar
 gestos naturales como movimientos de la mano e inclinómetros. De esta manera la experiencia en el videojuego es más
 nutritiva, la necesidad de practicar varias veces ayuda a memorizar los conceptos de geografía presentados.
+
 
 ### Género
 **Geomatch!** es un puzzle interactivo para la plataforma Windows.
@@ -86,6 +88,7 @@ Se realizó la programación de 2 nodos:
 [arduino nano]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/nano.png "arduino nano"
 [nrf4l01]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/rf.jpg "nrf4l01"
 
+[logo]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/geo.png "logotipo"
 
 [foto mando]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/foto_mando.png "foto mando"
 [foto pc]: https://github.com/tabris2015/geomatch/blob/master/unity/imagen/foto_pc.png "foto pc"
