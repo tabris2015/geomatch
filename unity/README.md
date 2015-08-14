@@ -15,3 +15,4 @@ Este directorio contiene todos los recursos utilizados para el proyecto en el mo
  * [Scripts, programación del juego](https://github.com/tabris2015/geomatch/tree/master/unity/Assets/scripts "Scripts")
  * [Escenas del juego](https://github.com/tabris2015/geomatch/tree/master/unity/Assets/Escenas "Escenas")
  * [Recursos (imágenes, modelos en 3D, animaciones, audio)](https://github.com/tabris2015/geomatch/tree/master/unity/Assets/Resources "Recursos del juego")
+ * [App compilada (.rar)](https://github.com/tabris2015/geomatch/tree/master/unity/final2.rar "App compilada")
